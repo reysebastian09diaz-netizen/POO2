@@ -1,0 +1,35 @@
+{
+    "name": "reysebastian/poo2",
+    "description": "Taller POO2 PHP",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Rey Sebastian Diaz"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Ejercicio1\\Models\\": "ejercicio1/models/",
+            "Ejercicio1\\Controller\\": "ejercicio1/controller/",
+            "Ejercicio1\\View\\": "ejercicio1/view/",
+
+            "Ejercicio2\\Models\\": "ejercicio2/models/",
+            "Ejercicio2\\Controller\\": "ejercicio2/controller/",
+            "Ejercicio2\\View\\": "ejercicio2/view/",
+
+            "Ejercicio3\\Models\\": "ejercicio3/models/",
+            "Ejercicio3\\Controller\\": "ejercicio3/controller/",
+            "Ejercicio3\\View\\": "ejercicio3/view/",
+
+            "Ejercicio4\\Models\\": "ejercicio4/models/",
+            "Ejercicio4\\Controller\\": "ejercicio4/controller/",
+            "Ejercicio4\\View\\": "ejercicio4/view/",
+
+            "Ejercicio5\\Models\\": "ejercicio5/models/",
+            "Ejercicio5\\Controller\\": "ejercicio5/controller/",
+            "Ejercicio5\\View\\": "ejercicio5/view/"
+        }
+    }
+}

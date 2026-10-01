@@ -1,10 +1,9 @@
 <?php
-require_once __DIR__ . "/controller/controladorcita.php";
+
+require_once __DIR__ . "/../vendor/autoload.php";
+
 require_once __DIR__ . "/view/consultausuario.php";
 require_once __DIR__ . "/view/visualizarcita.php";
-
-
-
 
 if (!isset($_POST["numero"], $_POST["tipo"])) {
 
@@ -14,7 +13,8 @@ if (!isset($_POST["numero"], $_POST["tipo"])) {
 } else {
 
     $vista = new visualizarcita();
-    $controlador = new controladorcita($vista);
-    $controlador->demostrar();
 
+    $controlador = new \Ejercicio1\controladorcita($vista);
+
+    $controlador->demostrar();
 }
